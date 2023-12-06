@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #0c0c0c;
+	color: #fff;
+	font-family: "Arial", sans-serif;
+}
+header {
+	background-image: url("https://img.freepik.com/free-vector/creative-christmas-town-banners-paper-style_23-2147957073.jpg?w=740&t=st=1701869586~exp=1701870186~hmac=96d33751d47a4e6957a30207037d9dbbfac8db2f2741b8e4a2381a732cb72009");
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-position: 25% 66%;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+#container {
+	text-align: center;
+	padding: 20px;
+	margin-top: 5rem;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	color: #ff6347;
+}
+form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px;
+	gap: 0.5rem;
+}
+
+input {
+	padding: 10px;
+	width: 200px;
+	border: 2px solid #228b22;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+button {
+	padding: 10px;
+	width: 200px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+#addFriends {
+	background-color: #dc143c;
+	color: #fff;
+}
+
+#getSancta {
+	background-color: #4169e1;
+	color: #fff;
+}
+
+/* Hover state */
+button:hover {
+	opacity: 0.9;
+}
+
+/* Active/Clicked state */
+button:active,
+input:active {
+	border: 2px solid wheat;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	background-color: #7a2100;
+	border-radius: 0.3rem;
+	padding: 1rem;
+	line-height: 1.4;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+li {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.animated-arrow {
+	display: inline-block;
+	animation: bounceDown 1s infinite;
+	font-size: 1.5em;
+	color: #32cd32;
+}
+
+@keyframes bounceDown {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+}

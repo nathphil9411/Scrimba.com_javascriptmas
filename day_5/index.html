@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="index.pack.js"></script>
+		<title>Sancta Secret Vault Scrimba Javachristmass Challenge</title>
+	</head>
+	<body>
+		<!--headerimage-->
+		<header id="header"></header>
+		<!--maincontent-->
+		<main id="container">
+			<h1>Welcome to Sancta's Secret Vault</h1>
+			<form>
+				<!-- label added for screen readers -->
+				<label for="friendName"
+					><input id="friendName" placeholder="friends name"
+				/></label>
+				<button id="addFriends">Add Friends</button>
+				<button id="getSancta">Match Friends</button>
+			</form>
+			<ul id="displayPair">
+				<li
+					id="listHead"
+					aria-label="Hello friends, know your sancta right here"
+					tabindex="0"
+				>
+					Hello friends, know your sancta right here
+					<span id="animatedArrow" class="animated-arrow" aria-hidden="true"
+						>&#x2B07;</span
+					>
+				</li>
+			</ul>
+		</main>
+
+		<script src="app.js"></script>
+	</body>
+</html>
