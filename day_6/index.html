@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Christmas Wishlist</title>
+	</head>
+	<body>
+		<header
+			style="
+				background-image: url('');
+				background-size: cover;
+				background-position: center;
+				height: 200px;
+			"
+		>
+			<h1 style="text-align: center; color: #fff; padding-top: 80px">
+				Christmas Wishlist
+			</h1>
+		</header>
+
+		<div class="container">
+			<div class="wishlist-container" id="wishlistDisplay">
+				<div
+					class="wishlist-item"
+					tabindex="0"
+					role="listitem"
+					aria-label="Wishlist Item "
+				>
+					<div class="wishlist-item-content">
+						<h2>Toy Car</h2>
+						<p>Description: A cool remote-controlled toy car</p>
+						<p>
+							Purchase Link:
+							<a href="https://example.com/toy-car" target="_blank">Buy Now</a>
+						</p>
+					</div>
+					<button
+						class="wishlist-item-button"
+						aria-label="Remove from Wishlist"
+					>
+						Remove
+					</button>
+					<button
+						class="wishlist-item-button"
+						aria-label="Remove from Wishlist"
+						onclick="deleteTask()"
+					>
+						Remove
+					</button>
+				</div>
+			</div>
+
+			<!-- More items would be added here. -->
+
+			<div class="add-item-container">
+				<label for="newWishlistItem">Add New Item:</label>
+				<input
+					type="text"
+					id="newWishlistItem"
+					placeholder="Item Name"
+					tabindex="0"
+					aria-label="New Wishlist Item Name"
+				/>
+				<button
+					id="addItemButton"
+					tabindex="0"
+					aria-label="Add Item to Wishlist"
+				>
+					Add Item
+				</button>
+
+				<textarea
+					name="itemdescription"
+					id="wishlistItemDescription"
+					cols="30"
+					rows="10"
+					placeholder="Details of the item"
+				></textarea>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

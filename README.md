@@ -27,6 +27,38 @@ The goal of Day 5 was to create a Secret Santa matching application using HTML, 
 - CSS includes hover and active states for buttons, enhancing user interaction.
 - Accessibility features are incorporated to improve the user experience for individuals using screen readers or keyboard navigation.
 
+# Day 6 Challenge: Christmas Wishlist
+
+## Task Overview
+
+The objective of Day 6 was to develop a Christmas Wishlist application using HTML, CSS, and JavaScript. This application enables users to create and manage their Christmas wishlists, add new items, and remove items they no longer desire.
+
+## Key Features
+
+- **HTML Structure:** A well-structured HTML layout providing a foundation for the Christmas Wishlist application.
+- **CSS Styling:** Stylish and responsive design for an appealing and user-friendly interface.
+- **JavaScript Logic:** Functionality for adding new wishlist items, dynamically rendering the wishlist, and removing items from the list.
+- **Accessibility:** Implemented accessibility features, including:
+  - **Semantic HTML:** Proper use of semantic elements for clarity and structure.
+  - **ARIA Attributes:** Used ARIA attributes for improved accessibility, including `aria-label` and `role`.
+  - **Keyboard Navigation:** Configured `tabindex` for interactive elements to enhance keyboard navigation.
+
+## Code Highlights
+
+- The JavaScript code includes functions to add items to the wishlist, dynamically render the wishlist, and remove items based on user interactions.
+- CSS styles contribute to an aesthetically pleasing design, with responsive adjustments for various screen sizes.
+- Event delegation is employed to handle "Remove" button clicks efficiently, enhancing the application's performance.
+
+## Next Steps
+
+- Explore additional features such as item prioritization or categorization.
+- Implement user authentication for personalized wishlists.
+- Enhance visual elements or add animations for a more engaging user experience.
+
+## Conclusion
+
+Day 6's Christmas Wishlist challenge resulted in a functional and visually appealing application, providing users with a platform to organize and share their festive desires. The combination of HTML, CSS, and JavaScript showcased the seamless integration of frontend technologies to create an interactive and festive web application.
+
 ## Folder Structure
 
 - `day5/`
