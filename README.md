@@ -59,6 +59,15 @@ The objective of Day 6 was to develop a Christmas Wishlist application using HTM
 
 Day 6's Christmas Wishlist challenge resulted in a functional and visually appealing application, providing users with a platform to organize and share their festive desires. The combination of HTML, CSS, and JavaScript showcased the seamless integration of frontend technologies to create an interactive and festive web application.
 
+# Day 7 challenge is a christmass card AI generated image. 
+ ## Task Overview
+ generate an image from an AI using a modal prompt to get the image text and displaying the result in a chrismass card. 
+
+ ## code stucture
+ the html, css and some parts of the javaScript was provided, this should have been more accessible. Well I would come back to that soon. 
+
+ ## conclusion
+The source files is a scrimb located  at  https://t.co/JF7CSFqQgX feel free to work on the scrimb
 ## Folder Structure
 
 - `day5/`
